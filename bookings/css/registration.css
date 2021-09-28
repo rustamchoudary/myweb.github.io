@@ -1,0 +1,179 @@
+body{
+  background: url("https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  /* background-size: ; */
+    background-color:#DAC9C9;
+  background-repeat: no-repeat;
+  }
+  /* :root{
+  /*   --opaque_inner_teal: #FEF9FF ;
+    --opaque_teal: #C93BF7;  */
+  /* } */ 
+  main{
+  /*   background-color: var(--opaque_teal); */
+    max-width: 70%;
+    border-radius: 57px;
+    margin: 15px;
+    padding: auto;
+  }
+  #main-form{
+     margin: 0 50px 10px 50px;
+    padding: auto;
+  /*   background-color: var(--opaque_inner_teal); */
+  /*   border: 12px #A23BDE ; */
+    opacity: .7;
+    border-radius: 17px;
+    line-height: 3;
+  /*   width: 5555px; */
+    color: #FFFFFF ;
+     font-weight: bolder;
+    font-size: 25px;
+  }
+  
+  
+  
+  #title{
+    font-family: Algerian,Times New Roman;
+    color: #FFFFFF ;
+    font-size: 2.4rem;
+    text-align: center;
+  }
+  #description{
+    text-align: center;
+    font-size: 1.4rem;
+    color:#FFFFFF ;
+  }
+  
+  #submit{
+    width: 100%;
+    height: 45px;
+  /*   background: green; */
+    color: black;
+    border-radius: 17px;
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: 600;
+  }
+  #submit:hover{
+   color: white;
+  /*   background: #A23BDE ; */
+    outline: none;
+    position: relative;
+    background-color: black;
+    
+  }
+  
+  
+  input {
+    width: 68%;
+      -webkit-writing-mode: horizontal-tb !important;
+      text-rendering: auto;
+  /*     color: -internal-#FFFFFF ; */
+      letter-spacing: normal;
+      word-spacing: normal;
+      text-transform: none;
+     border-radius: 19px;
+      text-indent: 0px;
+    color: black;
+      text-shadow: none;
+      display: inline-block;
+      text-align: start;
+      appearance: auto;
+      background-color: #FFFFFF;
+      -webkit-rtl-ordering: logical;
+      cursor: text;
+      margin: 0em;
+      font: 899 25.3333px Arial;
+      padding:auto;
+  /*     border-width: 10px; */
+      border-style: inset;
+  /*     border-color:#A23BDE ; */
+      border-image: initial;
+     font-weight: normal;
+  }
+  
+  
+  
+  
+  
+  input:hover{
+     color: white;
+  /*   background: #A23BDE ; */
+    outline: none;
+    position: relative;
+     border-radius: 0px;
+    background-color: #928799 ;
+  
+  
+  }
+  
+  
+  fieldset {
+      display: abslute;
+     border-radius: 19px;
+      margin-inline-start: 1px;
+      margin-inline-end: 2px;
+      padding-block-start: 0.35em;
+      padding-inline-start: 0.75em;
+      padding-inline-end: 0.75em;
+      padding-block-end: 0.625em;
+      min-inline-size: min-content;
+      border-width: 3px;
+      border-style: groove;
+      /* border-color: threedface; */
+      border-image: initial;
+    
+    
+  }
+  fieldset:hover {
+    color: white;
+  /*   background: #A23BDE ; */
+    outline: none;
+    position: relative;
+     border-radius: 0px;
+  }
+  
+  
+  select {
+      -webkit-writing-mode: horizontal-tb !important;
+      text-rendering: auto;
+      color: -internal-light-dark(black, white);
+      letter-spacing: normal;
+      word-spacing: normal;
+    
+      text-transform: none;
+      text-indent: auto;
+      text-shadow: none;
+      display: inline-block;
+      text-align: start;
+      appearance: auto;
+      box-sizing: border-box;
+      align-items: center;
+      white-space: pre;
+      -webkit-rtl-ordering: logical;
+      background-color: #FFFFFF;
+      cursor: default;
+      margin: 0em;
+      font: 400 13.3333px Arial;
+      
+      border-width: 1px;
+      border-style: solid;
+      border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+      border-image: initial;
+    
+     
+  
+    color: black;
+    border-radius: 17px;
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: 600;
+  }
+  
+  /* select: hover{
+    color: white;
+  /*   background: #A23BDE ; */
+    /* outline: none;
+    position: relative;
+     border-radius: 0px;
+    background-color: #928799 ;
+  } */ 

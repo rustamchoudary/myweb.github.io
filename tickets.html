@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- MAIN CONTENT OF THIS  -->
+
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+            <link href="css/ticket.css" rel="stylesheet" type="text/css"/>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+            <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700|Pacifico|Play|Pontano+Sans" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
+
+<!-- END MAIN CONTENT OF THIS  -->
+
+    <title>Tickets Booking</title>
+
+    <!-- google font -->
+    <link 
+        rel="preconnect" href="https://fonts.gstatic.com"
+    />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans&family=Raleway&family=Roboto&family=Source+Sans+Pro&display=swap"
+         rel="stylesheet"
+    />
+
+    <!-- Extra icons from login page -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+     <!-- font awesome icons  -->
+     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+     
+
+    <!-- M icons  -->
+    <link  
+        href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"
+    />
+<!--  Actual M  -->
+<link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+/>
+<!-- custom css -->
+<link rel="stylesheet" href="bookings/css/tickets.css"/>
+    
+</head>
+<body id="main">
+
+           <!-- header start -->
+    
+   <header id="header" class="header fixed-top header-scrolled"> 
+
+   <!-- <marquee behavior="alternate" direction="left"><div class="contact-phone"><i class="fa fa-phone" aria-hidden="true"></i> 
+      <a href="tel:+91-9996320362">+91-9996320362</a><br>
+      <a href="tel:+91-8708558959">+91-8708558959</a>
+    
+    </div>
+  </marquee>  -->
+
+    <nav class="nav-fixed">
+      <div class="nav-wrapper ">
+              
+        <a href="#" class="brand-logo logoc "  >PITS
+           
+          <div class="caption right-align ">
+            
+          </div>
+      </a>
+          <div class="colo black-text">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      
+          <ul class="right hide-on-med-and-down">
+          <li><a href="#"onclick="#">Home</a></li>
+          <li><a  href="#services" onclick="">Our Services</a></li>
+          
+         
+          <li><a href="#"onclick="toggleModal();">Contact us</a></li>
+        </ul>
+      </div>
+
+
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#"onclick="#">Home</a></li>
+        <li><a  href="#scrollSpy" onclick="">Our Services</a></li>
+        
+       
+        <li><a href="#"onclick="toggleModal();">Contact us</a></li>
+      </div>
+
+    
+      
+    </nav>
+  
+   
+    
+  </header>
+
+         <main id="slide">
+                <div class="slider ">
+                    <ul class="slides">
+
+                        <li >
+                            <img src="https://c4.wallpaperflare.com/wallpaper/632/978/370/airplane-sky-air-travel-airbus-wallpaper-preview.jpg">
+                            <div class="caption center-align">
+                                <!-- <h3 class="white-text" style="font-family: 'Pacifico',cursive;">What's your destination?</h3> -->
+                                <h4 class="btn btn-font flight">Flight Ticket?</h4>
+                            </div>
+                        </li>
+                        <!-- <li>
+                            <img src="https://c1.wallpaperflare.com/preview/432/202/570/eurostarzug-paris-london-at-calais-fast-track.jpg">
+                            <div class="caption center-align">
+                                <h4 class="btn btn-large btn-font train">Train Ticket?</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="http://trumpwallpapers.com/wp-content/uploads/Bus-Wallpaper-15-1280x853-1.jpg">
+                            <div class="caption center-align">
+                                <h4 class="btn btn-large btn-font bus">Bus Ticket?</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://acoastcleaning.com/wp-content/uploads/2018/07/hotel-fb.jpg">
+                            <div class="caption center-align">
+                                <h4 class="btn btn-large btn-font hotel">Hotel Reservation?</h4>
+                            </div>
+                        </li>
+
+                        <li>
+                          <img src="https://pbs.twimg.com/media/EFUKJKCUcAEQO_s.jpg">
+                          <div class="caption center-align">
+                              <h4 class="btn btn-large btn-font movie">Movie Tickets?</h4>
+                          </div>
+                      </li>
+                      <li>
+                        <img src="https://cdn2.vectorstock.com/i/1000x1000/05/66/pay-bill-banner-set-vector-2850566.jpg">
+                        <div class="caption center-align">
+                            <h4 class="btn btn-large btn-font bill">Bill Pay Recharge Service?</h4>
+                        </div>
+                    </li>
+                    <li>
+                      <img src="images/ticket1.png">
+                      <div class="caption center-align">
+                          
+                      </div>
+                  </li>
+
+                  <li>
+                    <img src="images/ticket2.png">
+                    <div class="caption center-align">
+                       
+                    </div>
+                </li> -->
+
+
+
+                    </ul>
+                </div>
+
+</main>
+
+
+<!-- MANUAL CARDS  -->
+
+<section>
+  <div id="services"class="titl"><h2>OUR SERVICES</h2></div>
+<div class="container1">
+  <div class="card">
+    <div class= "face hidden">
+      <div class= "content">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor maximus risus pellentesque imperdiet.</p>
+       
+        <a href="#"onclick="toggleModal();"> <button type="visit" id="visit">Get Service</button></a>
+          
+      </div>
+    </div>
+    <div class="face front">
+                 <i class="fa fa-plane"></i>
+                    <h2>FLIGHT TICKET</h2>
+    </div>
+  </div>
+  <div class="card">
+    <div class= "face hidden">
+      <div class= "content">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor maximus risus pellentesque imperdiet.</p>
+        <a href="#"onclick="toggleModal();"> <button type="visit" id="visit">Get Service</button></a>
+      </div>
+    </div>
+    <div class="face front">
+  <i class="fa fa-subway"></i>
+     <div class="padd"> <h2>TRAIN TICKET</h2>
+       </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class= "face hidden">
+      <div class= "content">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor maximus risus pellentesque imperdiet.</p>
+
+        <a href="#"onclick="toggleModal();"> <button type="visit" id="visit">Get Service</button></a>
+      </div>
+    </div>
+    <div class="face front">
+      <i class="fa fa-bus"></i>
+      <h2>BUS TICKET</h2>
+    </div>
+  </div>
+   <div class="card">
+    <div class= "face hidden">
+      <div class= "content">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor maximus risus pellentesque imperdiet.</p>
+
+        <a href="#"onclick="toggleModal();"> <button type="visit" id="visit">Get Service</button></a>
+      </div>
+    </div>
+    <div class="face front">
+      <i class="fa fa-bed"></i>
+      <h2>HOTEL RESERVATION</h2>
+    </div>
+  </div>
+   <div class="card">
+    <div class= "face hidden">
+      <div class= "content">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor maximus risus pellentesque imperdiet.</p>
+
+        <a href="#"onclick="toggleModal();"> <button type="visit" id="visit">Get Service</button></a>
+      </div>
+    </div>
+    <div class="face front">
+      <!-- <i class="fa fa-ticket"></i> -->
+      <i class="fingerprint"></i>
+      <h2>MOVIE TICKET</h2>
+    </div>
+  </div>
+     <!-- <div class="card">
+    <div class= "face hidden">
+      <div class= "content">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor maximus risus pellentesque imperdiet.</p>
+      </div>
+    </div>
+    <div class="face front">
+      <i class="fa fa-credit-card"></i>
+      <h2>BILL PAY</h2>
+    </div>
+  </div> -->
+   <div class="card">
+    <div class= "face hidden">
+      <div class= "content">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor maximus risus pellentesque imperdiet.</p>
+
+        <a href="#"onclick="toggleModal();"> <button type="visit" id="visit">Get Service</button></a>
+      </div>
+    </div>
+    <div class="face front">
+      <i class="fa fa-credit-card"></i>
+      <h2>RECHARGE SERVICE AND BILL PAY</h2>
+    </div>
+  </div>
+  
+</div>
+
+</section>
+
+
+<!-- MANUAL CARDS END 
+
+
+
+
+
+
+     
+<!-- FOOTER START  -->
+
+<section id="footer" class="footer">
+   
+  <footer class="footer-one">
+      <!-- <div class="container">
+          
+      </div> -->
+      <div class="row">
+
+
+
+          <div class="col l6 s12">
+              <h4 class="white-text">Contact Us</h4>
+              <p class="gray-text">
+                  PrajwalRaj IT Solutions, kegeri, Bangalore, India
+              </p>
+              <p class="gray-text">
+                 +91-9999999999
+              </p>
+          </div>
+
+          <div class="social-media col l6 s12">
+              
+              <a title="Follow us on  facebook" href="#" class="social-icon">
+                  <i class="fab fa-facebook-f"></i>
+              </a>
+              <a title="Follow us on  Instagram" href="#" class="social-icon">
+                  <i class="fab fa-instagram"></i>
+              </a>
+              <a title="Follow us on  Twiter" href="#" class="social-icon">
+                  <i class="fab fa-twitter"></i>
+              </a>
+              <a  title="Follow us on  linkedin-in"href="#" class="social-icon">
+                  <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a  title="Follow us on YouTube  "href="#" class="social-icon">
+                  <i class="fab fa-youtube"></i>
+              </a>
+          </div>
+  </div>
+
+
+
+
+
+<!-- 
+          <div class="col l6 s12">
+              <h4 class="white-text">Social Media</h4>
+              <ul>
+                  <li><a href="#" class="purple-text">facebook</a></li>
+                  <li><a href="#" class="purple-text">Instagram</a></li>
+                  <li><a href="#" class="purple-text">Twiter</a></li>
+              </ul>
+          </div> -->
+      <!-- </div> -->
+     
+      
+      <div class="row footer-two">
+          <div class="col l6 s12">    
+              <p class="white-text">&copy; PrajwalRaj IT Solutions pvt. ltd.</p>
+          </div>
+          <div class=" col l6 s12">
+          <p class="white-text"><b> Designed by Rustam Choudhary & Ujwal Rajputh M.</b></p>
+      </div>
+      </div>
+  </footer>
+</section>
+
+
+<!-- form  -->
+
+
+</section>
+<section class=" infomodal">
+    <div id="modal3" class="modal">
+        <!-- <div class="Modal-content">
+            <h4 id="info-modal-heading">We will come back soon...</h4>
+            <p id="info-modal-content">Sorry! All links are disabled as of now.</p>
+        </div> -->
+
+        <body id="main">
+
+          <main>
+              <h1 id="title"><u>Request Form for service </u></h1>
+              <p id="description">Please fill the details to get better service</p>
+              <div id="main-form">
+              <form id="survey-form" name="frmRegistration" method="POST" action="registration.php">
+                <label  id="name-label" for="name">Name:</label>
+                <input class="textboxes" type="text" name="name" id="name" placeholder="Enter Your Name" required/><br>
+      
+                 <label id="email-label" for="email">Email:</label>
+                 <input  class="textboxes" type="email" name="email" id="email" placeholder="Enter your Email" required/><br>
+      
+                <label id="phone-label" for="phone">Phone Number:</label>
+                <input class="textboxes" style="width: 68%;" type="tel" name="phone" id="phone" placeholder="Enter your phone number" required/><br>
+                
+      <!--           <label id="number-label" for="number">Number of Passengers:</label>
+                <input class="textboxes" style="width: 55%;" type="number" name="phone" id="number" min="1" max="8" placeholder="Number of people" required/><br> -->
+                <fieldset>
+                <legend>Select the Service:</legend>
+            <select class="textboxes" style="width: 100%; height: 2.5rem;" id="service" name="service" required>
+              <option disabled selected value>Select the Service</option>
+             <option value="AFlight Ticket">Flight Ticket</option>
+             <option value="Train Ticket">Train Ticket</option>
+             <option value="Bus Ticket">Bus Ticket</option>
+             <option value="Hotel Reservation">Hotel Reservation</option>
+             <option value="Movie Ticket">Movie Ticket</option>
+            <option value="Bill Pay">Bill Pay </option>
+            <option value="Recharge Service">Recharge Service</option>
+            
+            </select>
+                </fieldset>
+      <!--         <fieldset>
+                <legend>Choose the mode of Transport:</legend>
+                <input id="Train" type="radio" name="travel-mode" value="train" checked>
+                <label id="train-label" for="train">Train</label><br>
+                <input id="Airways" type="radio" name="travel-mode" value="airways">
+               <label id="airways-label" for="airways">Airways</label><br>
+                <input id="Seaways" type="radio" name="travel-mode" value="seaways">
+                <label id="seaways-label" for="seaways">Seaways</label>
+                </fieldset> -->
+                <label id="date-label" for="date">Date Of Get Service:</label>
+            <input class="textboxes" style="width: 62%;" id="date" type="date" name="date" required/><br>
+                <label>Any other queries?</label><br>
+            <!-- <textarea  class="textboxes"
+              style="width: 97%; height: 6rem; font-size: 16px;"
+              id="queries"
+              name="queries"
+              placeholder="Ask your queries here..."
+            ></textarea><br> -->
+      
+              <input type="text" name="queries">
+      
+      
+      
+      <!--         <label style="font-size:16px;"><input name="remember-me" value="remember-me" type="checkbox" checked/>Always Remember Me.</label><br>
+                <label id="license" style="font-size:16px;"><input name="license" value="license" type="checkbox" required/>I have read the Instructions and accept all the Terms and Conditions.</label><br> -->
+                <button type="submit" name="submit" id="submit">Submit</button>
+               
+              </form>
+              </div>
+            </main>
+
+
+<!-- FORM CLOSE  -->
+
+
+        <div class="modal-footer">
+            <a href="tickets.html" class="Modal-close wave-effect btn-flat">Close</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer END  -->
+</body>
+<!-- jquery -->
+<script
+ src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+  integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+   crossorigin="anonymous" referrerpolicy="no-referrer">
+</script>
+<!--    M Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!-- custom js -->
+<script src="bookings/js/ticket_loader.js"> </script>
+
+
+
+</html>
