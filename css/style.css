@@ -4,6 +4,17 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
+
+
+/* disable scrollbar */
+
+
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+
  /* header  */
  .header.header-scrolled {
   background: rgb(59, 187, 170);
@@ -471,10 +482,16 @@ nav ul a {
   margin-bottom: 0px;
 }
 
+body {
+  overflow: hidden; /* Hide scrollbars */
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 
+}
 @media print {
     html, body {
        display: none;  /* hide whole page */
+       
     }
 
     
@@ -633,6 +650,7 @@ body .container1 .card .box .content a:hover {
 }
 
 
+
 /* footer  */
 
 
@@ -648,6 +666,11 @@ body .container1 .card .box .content a:hover {
 .textcopy{
   text-align: center;
   height: 40%;
+}
+#wrapper:after {
+  content:"";
+  display:block;
+  clear:both;
 }
 
 
