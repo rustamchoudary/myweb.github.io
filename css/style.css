@@ -90,7 +90,7 @@ body */
   /* width: 100%; */
   /* height: 100%; */
   /* background-color: #a714b8; */
-  background-image: url('https://images.pexels.com/photos/2129796/pexels-photo-2129796.png');
+  background-image: url('https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 40% 60%;
@@ -238,13 +238,15 @@ canvas {
 
 /* END Canvas Particle Animation */
 
-
+#string{
+  align-items: center;
+}
 
 
 /* slider */
 
 .slider {
-  margin-top: 60px;
+  margin-top: 3%;
 }
 
 .fslider{

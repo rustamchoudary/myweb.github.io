@@ -30,14 +30,14 @@ function toggleModal(){
    
 //     // Disable mouse right click
 
-
+    
 //     $("body").on("contextmenu",function(e){
 //         return false;
 //     });
 // });
-// </script>
+// // </script>
 
-// Disable the print screen section
+// // Disable the print screen section
 
 // function copyToClipboard() {
 
@@ -78,7 +78,7 @@ function toggleModal(){
 
 // /* Canvas Particle Animation */
 
-// particle.min.js hosted on GitHub
+
 // Scroll down for initialisation code
 
 !(function (a) {
@@ -296,7 +296,7 @@ function toggleModal(){
     
     particleColor: '#fff',
     // background: 'https://png.pngtree.com/thumb_back/fh260/back_our/20190617/ourmid/pngtree-supreme-corporate-culture-exhibition-board-background-material-image_128396.jpg',
-    background: 'https://images.pexels.com/photos/2129796/pexels-photo-2129796.png',
+    background: 'https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260',
     interactive: true,
     speed: 'medium',
     density: 'high'
