@@ -21,56 +21,56 @@ function toggleModal(){
 
 // Disable the copy cut paste section
 
-{/* <script type="text/javascript"> */}
-$(document).ready(function () {
-    //Disable cut copy paste
-    $('body').bind('cut copy paste', function (e) {
-        e.preventDefault();
-    });
+// {/* <script type="text/javascript"> */}
+// $(document).ready(function () {
+//     //Disable cut copy paste
+//     $('body').bind('cut copy paste', function (e) {
+//         e.preventDefault();
+//     });
    
-    // Disable mouse right click
+//     // Disable mouse right click
 
     
-    $("body").on("contextmenu",function(e){
-        return false;
-    });
-});
-// </script>
+//     $("body").on("contextmenu",function(e){
+//         return false;
+//     });
+// });
+// // </script>
 
-// Disable the print screen section
+// // Disable the print screen section
 
-function copyToClipboard() {
+// function copyToClipboard() {
 
-    var aux = document.createElement("input");
-    aux.setAttribute("value", "print screen disabled!");      
-    document.body.appendChild(aux);
-    aux.select();
-    document.execCommand("copy");
-    // Remove it from the body
-    document.body.removeChild(aux);
-    alert("Print screen disabled!");
-  }
+//     var aux = document.createElement("input");
+//     aux.setAttribute("value", "print screen disabled!");      
+//     document.body.appendChild(aux);
+//     aux.select();
+//     document.execCommand("copy");
+//     // Remove it from the body
+//     document.body.removeChild(aux);
+//     alert("Print screen disabled!");
+//   }
   
-  $(window).keyup(function(e){
-    if(e.keyCode == 44){
-      copyToClipboard();
-    }
-  });
+//   $(window).keyup(function(e){
+//     if(e.keyCode == 44){
+//       copyToClipboard();
+//     }
+//   });
 
-  let mesh;
-// Disable the inspect section
+//   let mesh;
+// // Disable the inspect section
 
-  $(document).bind("contextmenu",function(e) {
-    e.preventDefault();
-   });
+//   $(document).bind("contextmenu",function(e) {
+//     e.preventDefault();
+//    });
 
-//disable F12 also
+// //disable F12 also
 
-   $(document).keydown(function(e){
-    if(e.which === 123){
-       return false;
-    }
-});
+//    $(document).keydown(function(e){
+//     if(e.which === 123){
+//        return false;
+//     }
+// });
 
 
 

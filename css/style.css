@@ -57,21 +57,28 @@ nav {
     color: #000;
 }
 
+/* Hero  */
+
+.hero{
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100%;
+  height: 100vh;
+  
+}
 
 .canvas {
-  height: 18.72cm;
+  height: 100vh;
   width: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
  
-  
-  
 }
 
 #particle-canvas {
   width: 100%;
-  height: 18.72cm;
+  height: 100%;
   position: absolute;
   /* width: 100%; */
   /* height: 100%; */
@@ -83,8 +90,6 @@ nav {
   overflow: hidden;
   
 }
-
-
 
 .wrapper{
   display: block;
@@ -104,9 +109,6 @@ nav {
   display: inline-block;
   padding-right: 30px;
   font-family: 'Teko', sans-serif;
-
-
-
   color:#fffbf1;
   font-weight: bold;
   font-family: 'Fuggles', cursive;
@@ -121,17 +123,12 @@ nav {
   text-align: center;
 }
 
-
-
-
-
 /* NEW IN CANVAS  */
 
 element.style {
   z-index: 20;
   position: relative;
 }
-
 canvas {
   display: block;
   vertical-align: bottom;
@@ -145,28 +142,10 @@ canvas {
 }
 
 
-
-
-/* END Canvas Particle Animation */
-
 #string{
   align-items: center;
 }
-
-
-/* slider */
-
-.slider {
-  margin-top: 3%;
-}
-
-.fslider{
-  text-transform: uppercase;
-  font-weight: bold;
-  width: 100%;
-  height: 18.29cm;
-  
-}
+/* END Canvas Particle Animation */
 
 /* Options of menu  */
 
@@ -260,10 +239,13 @@ nav ul a {
 /* Mobile demo side navbar */
 
 
+
 .sidenav{
     background-color: rgb(59, 187, 170);
     z-index: 9999;
     letter-spacing: 4px;
+    display: block;
+    /* position: relative; */
     
 }
 
