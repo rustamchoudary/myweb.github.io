@@ -7,13 +7,6 @@ html {
 
 
 
-/* disable scrollbar */
-
-
-/* ::-webkit-scrollbar {
-  display: none;
-} */
-
 
  /* header  */
  .header.header-scrolled {
@@ -30,9 +23,6 @@ html {
   left: 0;
   z-index: 1030;
 }
-
-
-
 
 
 nav .nav-wrapper {
@@ -68,10 +58,6 @@ nav {
 }
 
 
-/* Canvas Particle Animation */
-
-/* html,
-body */
 .canvas {
   height: 18.72cm;
   width: 100%;
@@ -97,31 +83,6 @@ body */
   overflow: hidden;
   
 }
-
-
-
-
-/* curved name over the partical  */
-
-
-/*  
-.name1{
-  color:#fffbf1;
-  font-weight: bold;
-  font-family: 'Fuggles', cursive; 
-
-    position:absolute;
-    
- text-align: justify;
-  
-  margin-top:20%;
-  margin-left: auto;
- 
-  text-align: center;
-  
-} */
-
-/* moving words on the particals  */
 
 
 
@@ -159,56 +120,6 @@ body */
   /* padding-left: ; */
   text-align: center;
 }
-
-
-/* scroll down button / */
-
-
-/* 
-div1 {
-  scroll-behavior: smooth;
-  position:absolute;
- }
- 
- a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  position:absolute;
- } 
- 
- #down {
-  margin-top: 100%;
-  padding-bottom: 25%;
-  position:absolute;
- } 
-   */
-
-
-/* body 
-
-  font-family: 'Teko', sans-serif
-.wrapper 
-    display: block
-    margin: 0 
-    padding: 0
-    overflow: hidden
-    text-align: center
-    margin: 5em auto
-    width: 100% 
-    max-width: 60em
-    transform-origin: bottom left
-    span 
-      color: black 
-      font-size: 5em
-      text-transform: uppercase
-      line-height: 1
-      display: inline-block
-      padding-right: 30px
-      &.red 
-        color: blue
-      &:last-child 
-        padding-right: 0
- */
 
 
 
@@ -485,15 +396,19 @@ nav ul a {
 }
 
 body {
-  overflow: hidden; /* Hide scrollbars */
-  overflow-y: hidden; /* Hide vertical scrollbar */
-  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow: hidden; /*Hide scrollbars*/
+  overflow-y: hidden; /*Hide vertical scrollbar*/
+  overflow-x: hidden; /*Hide horizontal scrollbar*/
+   width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0 0;
 
 }
-@media print {
+ @media print {
     html, body {
-       display: none;  /* hide whole page */
-       
+      display: none;   /* hide whole page */
+        
     }
 
     
@@ -531,10 +446,6 @@ body {
   background: #201e1e;
   background:rgb(59, 187, 170)
 
-
-
-
-  
 }
 
 body .container1 {
@@ -663,6 +574,8 @@ body .container1 .card .box .content a:hover {
 
 .footer-two{
   background: rgb(57, 121, 112);
+  /* flex: 111 111 0px; */
+  /* display: flex; */
 }
 
 .textcopy{
