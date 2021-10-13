@@ -309,7 +309,7 @@ nav ul a {
 
 /* paralex  */
 .parallax-container{
-    min-height: 280px;
+    min-height: 180px;
     height: auto;
     border-radius: 30px;
 } 
