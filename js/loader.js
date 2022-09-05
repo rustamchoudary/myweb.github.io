@@ -254,7 +254,9 @@ function copyToClipboard() {
             Math.pow(this.o[a].x - this.o[b].x, 2) +
               Math.pow(this.o[a].y - this.o[b].y, 2)
           );
-          c > 150 ||
+          
+ // Particles settings 
+          c > 160 ||
             (this.g.beginPath(),
             (this.g.strokeStyle = this.options.particleColor),
             (this.g.globalAlpha = (110 - c) / 110),
@@ -294,7 +296,7 @@ function copyToClipboard() {
   
   var options = {
     
-    particleColor: '#fff',
+    particleColor: '#f7f2d1',
     // background: 'https://png.pngtree.com/thumb_back/fh260/back_our/20190617/ourmid/pngtree-supreme-corporate-culture-exhibition-board-background-material-image_128396.jpg',
     background: 'https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260',
     interactive: true,
@@ -320,9 +322,9 @@ function copyToClipboard() {
 
 
 
-var $string = " let's grow with us!";
+var $string = "";
 var $parent = $('#string');
-var array = [];
+var array = ["we would love to make you mentally Strong"];
 var words = $string.split('');
 
 for (var x = 0; x < words.length; x++) {
