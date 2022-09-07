@@ -93,8 +93,8 @@ nav {
 
 .wrapper{
   display: block;
-  margin: 0%;
-  padding: 0%;
+  margin: 0% auto;
+  padding: 0% auto;
   overflow: hidden;
   text-align: center;
   margin: 5em auto;
@@ -105,6 +105,8 @@ nav {
   font-size: 5em;
   text-transform: uppercase;
   line-height: 1;
+  /* background-color: #000; */
+  font-size:50px;
   display: inline-block;
   padding-right: 30px;
   font-family: 'Teko', sans-serif;
@@ -121,6 +123,8 @@ nav {
   /* padding-left: ; */
   text-align: center;
 }
+
+
 
 /* NEW IN CANVAS  */
 
@@ -180,12 +184,14 @@ nav ul a {
 
 
 
+
 /* logo and Brand name  */
 
 .logoc{
-  color: #09090a;
+  color: #f7f7fc;
   font-weight: bolder;
-  text-align: left;
+  text-align: center;
+  /* display: inline; */
   /* font-family: Iceland; */
   font-size: 1rem;
   font-family: 'Tourney', cursive;
@@ -195,7 +201,7 @@ nav ul a {
 .logoc :hover{
   /* color: #111118; */
   font-weight: bolder;
-  text-align: right;
+  text-align: center;
   -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
   -moz-animation: neon2 1.5s ease-in-out infinite alternate;
   animation: neon2 1.5s ease-in-out infinite alternate;
