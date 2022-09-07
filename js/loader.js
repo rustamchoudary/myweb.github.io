@@ -324,7 +324,7 @@ function copyToClipboard() {
 
 var $string = "";
 var $parent = $('#string');
-var array = ["we would love to make you mentally Strong"];
+var array = ["By bringing small issues into light, we aim to spread mental health awareness, initiate fundraisers, and improve people's lives all across the globe"];
 var words = $string.split('');
 
 for (var x = 0; x < words.length; x++) {
